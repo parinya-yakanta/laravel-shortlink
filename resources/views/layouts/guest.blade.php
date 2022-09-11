@@ -13,14 +13,14 @@
 
     <!-- Scripts -->
     {{-- @vite(['resources/css/app.css', 'resources/js/app.js']) --}}
-    <link rel="stylesheet" href="{{ asset('build/assets/app.8ef1f455.css') }}">
+    <link rel="stylesheet" href="{{ asset('app.8ef1f455.css') }}">
 </head>
 
 <body>
     <div class="font-sans text-gray-900 antialiased">
         {{ $slot }}
     </div>
-    <script src="{{ asset('build/assets/app.ab93cf8a.js') }}"></script>
+    <script src="{{ asset('app.ab93cf8a.js') }}"></script>
 </body>
 
 </html>
